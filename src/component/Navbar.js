@@ -1,4 +1,4 @@
-
+// import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useTheme } from "../hooks/useTheme";
 
@@ -7,7 +7,6 @@ import "./navbar.css";
 
 // Components 
 import Searchbar from "./Searchbar";
-
 
 export default function Navbar() {
 
